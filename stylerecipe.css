@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h2{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    margin: 30px;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(104, 255, 255);
+    position: fixed;
+    z-index: 5;
+    overflow: hidden;
+}
+
+figure{
+    padding: 0px;
+    margin:0px;
+    width: 30%;
+}
+
+figure img{
+    height: 110px;
+}
+
+nav .menu-principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-principal li{
+    margin:0 10px;
+    list-style-type: none;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+section .background-img{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+section .background-img img{
+    width: 100%;
+}
+
+.sec1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 75%;
+}
+
+.info h1{
+    color: white;
+    font-size: 4rem;
+}
+
+.recipes{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(190, 255, 255);
+}
+
+.sec2, .sec3, .sec4, .sec5, .sec6, .sec0{
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.sec0 h2{
+    margin-bottom: 60px;
+}
+
+.sec0 a{
+    font-size: 1.5rem;
+    color: rgb(0, 132, 132);
+}
+
+.food{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.food img{
+    align-items: center;
+    width: 100%;
+}
+
+.instructions{
+    width: 80%;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(104, 255, 255);
+}
+
+.subscription{
+    font-size: 2rem;
+    margin: 20px;
+}
+
+footer .subscription h3{
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header a{
+ color: black;
+}
+
+a{
+ text-decoration: none;
+}
+form input{
+    margin: 1 px 0;
+    padding: 10px;
+    border: none;
+    background: rgb(202, 255, 255);
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+}
+
+form button{
+    background-color:rgb(101, 245, 245);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.social-media{
+    font-size: 2rem;
+    margin: 20px;
+}
+
+footer .social-media ul{
+    margin:0 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .social-media ul li a i{
+    color: red;
+    font-size: 2rem;
+}
